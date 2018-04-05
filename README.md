@@ -1,15 +1,15 @@
+This repository is based on the following work and GAN architecture:
+
 ###<a href="http://arxiv.org/abs/1605.05396">Generative Adversarial Text-to-Image Synthesis</a>
 Scott Reed, Zeynep Akata, Xinchen Yan, Lajanugen Logeswaran, Bernt Schiele, Honglak Lee
 
-This is the code for our ICML 2016 paper on text-to-image synthesis using conditional GANs. You can use it to train and sample from  text-to-image models. The code is adapted from the excellent [dcgan.torch](https://github.com/soumith/dcgan.torch).
-
 <img src="images/dcgan_network.jpg" width="900px" height="220px"/>
 
-####Setup Instructions
+####Dependencies
 
-You will need to install [Torch](http://torch.ch/docs/getting-started.html), CuDNN, and the [display](https://github.com/szym/display) package.
+[Torch](http://torch.ch/docs/getting-started.html), CuDNN, and the [display](https://github.com/szym/display) package.
 
-####How to train a text to image model:
+####Training instructions:
 
 1. Download the [birds](https://drive.google.com/file/d/0B0ywwgffWnLLLUc2WHYzM0Q2eWc/view?usp=sharing) and [flowers](https://drive.google.com/file/d/0B0ywwgffWnLLMl9uOU91MV80cVU/view?usp=sharing) and [COCO](https://drive.google.com/open?id=0B0ywwgffWnLLamltREhDRjlaT3M) caption data in Torch format.
 2. Download the [birds](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) and [flowers](http://www.robots.ox.ac.uk/~vgg/data/flowers/102) and [COCO](http://mscoco.org/dataset/#download) image data.
@@ -42,7 +42,7 @@ You will need to install [Torch](http://torch.ch/docs/getting-started.html), CuD
 
 ####Citation
 
-If you find this useful, please cite our work as follows:
+Primary reference:
 
 ```
 @inproceedings{reed2016generative,
