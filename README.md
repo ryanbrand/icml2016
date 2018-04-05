@@ -1,6 +1,6 @@
-This repository is based on the following work and GAN architecture:
+This repository is based on the following GAN architecture:
 
-###<a href="http://arxiv.org/abs/1605.05396">Generative Adversarial Text-to-Image Synthesis</a>
+####<a href="http://arxiv.org/abs/1605.05396">Generative Adversarial Text-to-Image Synthesis</a>
 Scott Reed, Zeynep Akata, Xinchen Yan, Lajanugen Logeswaran, Bernt Schiele, Honglak Lee
 
 <img src="images/dcgan_network.jpg" width="900px" height="220px"/>
