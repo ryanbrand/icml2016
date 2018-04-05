@@ -1,11 +1,11 @@
 # bird related data
-CUB_IMG_DIR=/home/ubuntu/icml_data/CUB_200_2011/images
-CUB_META_DIR=/home/ubuntu/icml_data/cub_icml
+CUB_IMG_DIR=/home/ubuntu/Data/CUB_200_2011/images
+CUB_META_DIR=/home/ubuntu/Data/cub_icml
 CUB_NET_TXT=/home/ubuntu/icml2016/cv/lm_sje_nc4_cub_hybrid_gru18_a1_c512_0.00070_1_10_trainvalids.txt_iter30000.t7
 
 # flowers related data
-FLOWERS_IMG_DIR=/home/ubuntu/icml_data/Oxford_102
-FLOWERS_META_DIR=/home/ubuntu/icml_data/flowers_icml
+FLOWERS_IMG_DIR=/home/ubuntu/Data/Oxford_102
+FLOWERS_META_DIR=/home/ubuntu/Data/flowers_icml
 FLOWERS_NET_TXT=/home/ubuntu/icml2016/cv/lm_sje_flowers_c10_hybrid_0.00070_1_10_trainvalids.txt_iter16400.t7
 
 # # MS-COCO related data
